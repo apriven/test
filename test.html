@@ -1,15 +1,300 @@
 <!DOCTYPE html>
-<HTML>
+<html>
+	<head>
+		<title>
+			 Apple
+		</title>
+		<style>
+		body{
+			margin:0px;
+			padding: 0px;
+		}
+		.stripe{
+			border:5px solid white;			
+			color:white;
+			margin: 0px;
+			font-family: "Myriad Set Pro", "Helvetica Neue","Helvetica", "Arial", sans-serif;
+			text-align: center;
+		}
+		.menu.stripe{
+			background-color: rgba(0,0,0,0.8);
+			color:white;
+			height:50px;
+			position: fixed;
+			width: 100%;
+			border: none;
+		}
+		.white.stripe{
+			background-color: rgba(250,250,250,0.8);
+			color:white;
+			height:50px;
+			position: static;
+			width: 100%;
+			border: none;
+		}
+		.xs.stripe{
+			height: 700px;
+			background-color: black;
+			padding-top: 2px;	
+		}
+		.iphone.stripe{
+			height: 700px;
+			background-color: black;
+		}
+		.watch.stripe{
+			height: 500px;
+			background-color: rgba(250,250,250,250);
+		}
+		.picxs{
+			background-image: url(./xs.jpg);
+    		background-size: 900px;
+			background-repeat:no-repeat;
+			padding-bottom: 330px;
+			margin-top:80px;
+			background-position: center;
+		}
+		.piciphone{
+			background-image: url(./iphone.jpg);
+    		background-size: 1200px;
+			background-repeat:no-repeat;
+			padding-bottom: 431px;
+			margin-top:40px;
+			background-position: center;
 
-<head>
-    <!-- link to css file -->
-    <link rel="stylesheet" href="./css/main.css">
-    <!-- link to js file -->
-    <script src="js/main.js"></script>
-</head>
+		}
+		.picwatch{
+			height: 500px;
+			padding-right: 120px;
+		}
+		.pic1.stripe{
+			height: 600px;
+		}
+		.pic2.stripe{
+			height: 600px;
+		}
+		.pic3.stripe{
+			height: 600px;
+		}
+		.grey.stripe{
+			height: 500px;
+			background-color: lightgrey;
+		}
+		.logo{
+			height: 34px;
+			margin:0px;
+		}
+		.menu-entry{
+			margin: 30px;
+		}
+		.xwords{
+			padding-top: 100px;
+		}
+		.iphonewords{
+			padding-top: 100px;
+		}
+		.wwords{
+			padding-top: 200px;
+			padding-left: 15%;
+			float: left;
+		}
+		.container{
+			display: flex;
+			flex-direction: row;
+		}
+		.size div{
+			width: 800px;
+			height: 580px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+			background-color:  rgba(250,250,250,250);
+			border:5px solid white;
+		}
+		.music{
+			background-image:url(./apple_music_large.jpg);
+			background-size: cover;
+			background-repeat:no-repeat;
+			background-position: center;
+			margin:10px;		
+		}
+		.air{
+			background-image:url(./air.jpg);
+    		background-size: 420px;
+			background-repeat:no-repeat;
+			margin-top:10px;
+			background-position: center;
+			border:5px solid blue;	
+		}
+		.gb{
+			background-image:url(./gb.jpg);
+			background-size: cover;
+			background-repeat:no-repeat;
+			background-position: center;
+			margin-top:10px;
+		}	
+		.home{
+			background-image:url(./home.jpg);
+    		background-size: 420px;
+			background-repeat:no-repeat;
+			margin-top:10px;
+			background-position: center;
+			border:5px solid white;		}
+		.pods.stripe{
+			height: 700px;
+			background-color: black;
+		}
+		.airwords{
+			font-family: "Myriad Set Pro", "Helvetica Neue","Helvetica", "Arial", sans-serif;			
+			text-align: center;
+			color:black;
+		}
+		.mwords{
+			font-family: "Myriad Set Pro", "Helvetica Neue","Helvetica", "Arial", sans-serif;			
+			text-align: center;
+		}
+		.pro{
+			background-image:url(./pro.jpg);
+			background-size: cover;
+			background-repeat:no-repeat;
+			background-position: center;
+			margin:10px;		
+		}
+		.pad{
+			background-image:url(./pad.jpg);
+    		background-size: 500px;
+			background-repeat:no-repeat;
+			margin-top:10px;
+			background-position: center;
+			border:5px solid white;		}
+		.gstripe{
+			height: 580px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+			background-color:  rgba(250,250,250,250);
+			height: 500px;
+			background-color: lightgrey;
+			padding: 15px 50px 30px 50px;
 
-<body>
-    aaaa
-</body>
+		}
+		.new{
+			text-align: left;
+			color:grey;
+			font-size: 12px;
+			cursor:auto;
 
-</HTML>
+		}
+		td.main{
+			color: black;
+			font-size: small;
+			text-align: left;
+			width: 320px;
+			font-weight: bold;
+			border-top: 1px solid grey;
+
+		}
+		td.cells{
+			color: black;
+			font-size: small;
+			text-align: left;
+			width: 320px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="stripe menu">
+			<span class="menu-entry">
+				<img class="logo" src="./logo.png">
+			</span>
+			<span class="menu-entry">MAC</span>
+			<span class="menu-entry">iPad</span>
+			<span class="menu-entry">iPhone</span>
+			<span class="menu-entry">Watch</span>
+			<span class="menu-entry">TV</span>
+			<span class="menu-entry">Music</span>
+			<span class="menu-entry">Support</span>
+			<span class="menu-entry">Q</span>
+			<span class="menu-entry">ם</span>
+		</div>
+		<div class="stripe xs">
+			<div class="xwords">
+				<img src="./xslogo.png">
+				<h2>Welcome to the big screens</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3>
+			</div>
+			<div class="picxs"></div>
+		</div>
+		<div class="stripe iphone">
+			<div class="iphonewords">
+				<img src="./rlogo.png">
+				<h2>Brilliant. In every way</h2>
+				<h3 style="color: grey">Pre-order 10.19</h3>
+			</div>
+			<div class="piciphone"></div>
+		</div>
+		<div class="watch stripe">
+			<div class="wwords">
+				<img src="./watchlogo.jpg">
+				<h2 style="color:black">All new. For a better you.</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3>
+			</div>
+			<img class="picwatch" src="./watch.jpg">
+		</div>
+		<div class="stripe pic1">
+			<div class="container size">
+				<div class="music mwords">
+				<img src="./mlogo.png"><h2>Lose yourself in 50 million songs.</h2>
+				<h3>Try it free* >&nbsp; &nbsp;Buy ></h3>
+			</div>
+			<div class="air airwords"><h1>AirPods</h1>
+				<h2>Welcome to the big screens</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3></div>
+			</div>	
+		</div>
+		<div class="stripe pic2">
+				<div class="container size">
+			<div class="gb airwords"><h1>Apple GiveBAck</h1>
+				<h2>Trade in your old device</h2>
+				<h2>for credit toward a new one.</h2>
+				<h3 style="color: blue">See how it works ></h3>
+			</div>
+			<div class="home airwords"><h1>HomePod</h1>
+				<h2>THe new sound of home</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3>
+			</div>
+		</div>	
+		</div>
+		<div class="stripe pic3">
+				<div class="container size">
+			<div class="pro"><h1>MacBook Pro</h1>
+				<h2>More power. More performance. More pro.</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3>
+			</div>
+			<div class="pad airwords"><h1>iPad</h1>
+				<h2>Like a computer. Unlike any computer.</h2>
+				<h3 style="color: blue">Learn more >&nbsp; &nbsp;Buy ></h3>
+			</div>
+		</div>	
+		</div>
+		<div class="stripe grey">
+			<div class="gstripe">
+				<p class="new"> *New Subscribers only. Plan automatically renews after trial. </p>
+				<table cellpadding="0" cellspacing="0" border="0" class="tab">
+					<tr>
+						<td class="main"><p> Shop and Learn </p></td>
+						<td class="main"><p> Apple Store </p></td>
+						<td class="main"><p> For Education </p></td>
+						<td class="main"><p> Account </p></td>
+						<td class="main"><p> Abbout Apple </p></td>
+					</tr>
+					<tr>
+						<td class="cells"><p> Shop and Learn </p></td>
+						<td class="cells"><p> Apple Store </p></td>
+						<td class="cells"><p> For Education </p></td>
+						<td class="cells"><p> Account </p></td>
+						<td class="cells"><p> Abbout Apple </p></td>
+					</tr>
+				</table>
+			</div>
+		</div>	
+		</div>
+	</body>
+</html>
